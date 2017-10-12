@@ -19,5 +19,5 @@ if __name__ == '__main__':
     file_content = load_data(filename)
     frequent_words = get_most_frequent_words(file_content)
     print("10 most frequent words in file:")
-    for i in range(10):
-        print(i+1, ': ', frequent_words[i][0])
+    for counter in range(10):
+        print(counter + 1, ': ', frequent_words[counter][0])
