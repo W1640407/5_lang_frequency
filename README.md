@@ -1,24 +1,24 @@
 # Frequency Analysis of Words
 
-Выводит 10 наиболее часто встречающихся в файле слов в убывающем порядке.  
-Имя фала передается аргументом командной строки
+Prints 10 most frequent words in file.  
+Filename is commandline arg
 
-####Запуск скрипта:
+#### Run script:
 ```
 python lang_frequency.py <filename>
 ```
-где  `<filename>` - имя файла
+where  `<filename>` - file name
 
-####Вывод:
-Массив из 10 наиболее часто встречающихся в файле слов в убывающем порядке
+#### Output:
+List of 10 most frequent words in file
 
-####Пример запуска:
+#### Run script example:
 ```
 python lang_frequency.py test.txt
 ```
-####Пример вывода:
+#### Output example:
 ```
-10 наиболее часто встречающихся в тексте слов, по убыванию:
+10 most frequent words in file:
 ['e', 'a', 'd', 'f', 'g', 'h', 'i', 'j', 'c', 'b']
 ```
 

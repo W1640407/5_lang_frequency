@@ -20,5 +20,5 @@ if __name__ == '__main__':
     frequent_words = get_most_frequent_words(file_content)
     # Counter.most_common() returns array of pairs (a,b) where a - element, b - count, therefore calling pair[0] returns
     # element from this pair.
-    print("10 наиболее часто встречающихся в тексте слов, по убыванию:")
+    print("10 most frequent words in file:")
     print([pair[0] for pair in frequent_words])
