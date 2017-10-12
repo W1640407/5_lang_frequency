@@ -11,8 +11,7 @@ def load_data(filepath):
 def get_most_frequent_words(text):
     words_list = str.split(text)
     words_to_print = 10
-    m = Counter(words_list).most_common(words_to_print)
-    return m
+    return Counter(words_list).most_common(words_to_print)
 
 
 if __name__ == '__main__':
