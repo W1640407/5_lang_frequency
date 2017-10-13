@@ -19,17 +19,16 @@ python lang_frequency.py test.txt
 #### Output example:
 ```
 10 most frequent words in file:
-1 :  10
-2 :  most
-3 :  file
-4 :  frequent
-5 :  words
-6 :  in
-7 :  of
-8 :  is
-9 :  Run
-10 :  script
-
+ 1: 10
+ 2: file
+ 3: most
+ 4: frequent
+ 5: words
+ 6: in
+ 7: of
+ 8: is
+ 9: Run
+10: script
 
 ```
 
