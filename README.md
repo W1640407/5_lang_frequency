@@ -21,14 +21,15 @@ python lang_frequency.py test.txt
 10 most frequent words in file:
 1 :  10
 2 :  most
-3 :  10
-4 :  most
-5 :  frequent
-6 :  words
-7 :  in
-8 :  file
-9 :  of
-10 :  is
+3 :  file
+4 :  frequent
+5 :  words
+6 :  in
+7 :  of
+8 :  is
+9 :  Run
+10 :  script
+
 
 ```
 

@@ -1,5 +1,8 @@
+import re
 import sys
 from collections import Counter
+
+WORDS_AMOUNT_TO_PRINT = 10
 
 
 def load_data(filepath):
@@ -9,9 +12,7 @@ def load_data(filepath):
 
 
 def get_most_frequent_words(text):
-    words_list = text.split()
-    words_amount_to_print = 10
-    return Counter(words_list).most_common(words_amount_to_print)
+    return Counter(re.findall(r'\w+', text)).most_common(WORDS_AMOUNT_TO_PRINT)
 
 
 if __name__ == '__main__':
